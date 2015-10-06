@@ -1,0 +1,41 @@
+
+.text-center{font: normal small-caps 120px/140px fantasy;
+color: #F5D0A9;}
+.comic {
+	background:#D9CECA;
+color:#826857;
+height:100px;
+border:2px solid #B39881;
+border-radius:23px ;
+font-size:19px ;
+width: 231px ;
+padding: 5px ;
+box-shadow: 0px 0px 8px #DCDCDC; 
+-webkit-box-shadow: 0px 0px 8px #DCDCDC; 
+-moz-box-shadow: 0px 0px 8px #DCDCDC; 
+}
+.comic1 {
+	background:#D9CECA;
+color:#826857;
+height:50px;
+border:2px solid #B39881;
+border-radius:23px ;
+font-size:19px ;
+width: 100px ;
+padding: 5px ;
+box-shadow: 0px 0px 8px #DCDCDC; 
+-webkit-box-shadow: 0px 0px 8px #DCDCDC; 
+-moz-box-shadow: 0px 0px 8px #DCDCDC; 
+}
+.btn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Courier New;
+  color: #dedede;
+  font-size: 16px;
+  background: #b8aa8d;
+  padding: 10px 20px 10px 23px;
+  text-decoration: none;
+}
+.shrift{font: normal small-caps 20px/25px fantasy;}

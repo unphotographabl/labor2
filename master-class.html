@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head><div class="shrift">
+		<meta charset="utf-8">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+		<title>Мастер-класс по скрапбукингу</title>
+		<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+		<link rel="stylesheet" href="css/style.css"  >
+		<script src="/js/script.js"></script>
+
+
+		<div class= "text-center imya"><h1>Мастер-класс по скрапбукингу <small>28.07.2016</small></h1></div>
+		<div class="text-center"><img src="skrapbuking.jpg"></div>
+		<div class="text-center"><iframe width="600" height="315" src="https://www.youtube.com/embed/SSzayQEnX78" frameborder="0" allowfullscreen></iframe></div>
+	</head>
+	
+	<body>
+	<form id="com" >
+	  <span>Имя: </span><br>
+	  <input type="text" id="name" class="comic1"><br>
+	  <span>Комментарий</span><br>
+	  <textarea id="comment" cols="20" rows="10" class="comic"></textarea><br>
+	  <input type="button" value="Отправить" class="btn"onclick="butt();">
+	   
+	  <input type="button" value="Удалить" class="btn"onclick="butt2();">
+
+ </form>
+  
+	<div id="comment"class="panel panel-success">
+		<div class="panel-heading" id="txt3">Комментарии</div><div id="txt2" class="panel-footer"></div>
+		</div>
+	<div id="txt4" ></div>
+
+ 	</div>
+ <script>
+ function butt(){var a=document.getElementById("comment").value;
+	var allcom="ИМЯ:"+document.getElementById("name").value+"<p>"+a+"</p>";
+	document.getElementById("txt2").innerHTML=allcom+document.getElementById("txt2").innerHTML;	}											
+
+function butt2(){document.getElementById("txt2").innerHTML="удалено";
+};
+
+/*function butt1(){var a=document.getElementById("name").value;
+	var c=document.getElementById("txt3").innerHTML="<div class='imya'>"+a+"</div>"+"<p>"+document.getElementById("txt3").innerHTML+"</p>";
+var b=document.getElementById("comment").value;
+var e=document.getElementById("txt2").innerHTML=b+document.getElementById("txt2").innerHTML;
+}*/
+</script>
+
+</body>
+
+
+
+</html>
